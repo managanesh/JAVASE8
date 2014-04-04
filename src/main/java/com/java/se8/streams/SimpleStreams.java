@@ -22,7 +22,11 @@ public class SimpleStreams {
                 }).findFirst().isPresent()
         ;
 
-        System.out.print(present);
+        System.out.println(present);
+
+        int noProcessor = Runtime.getRuntime().availableProcessors();
+
+        System.out.println(noProcessor);
 
 
     }
