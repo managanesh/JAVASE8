@@ -1,8 +1,6 @@
-package com.java.se8.forkjoin;
+package com.java.se8.concurrent.forkjoin;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
